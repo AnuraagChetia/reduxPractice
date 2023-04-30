@@ -7,6 +7,7 @@ function App() {
   const isLoggedIn = useSelector((state) => {
     return state.auth.isLoggedIn;
   });
+
   return (
     <>
       <Header />
